@@ -1,0 +1,39 @@
+html, body {
+    color: limegreen;
+    font-size: 20px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.polskaGUROM {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#helo {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5em;
+    left: 0;
+    right: 0;
+}
+
+.polskaGura, .polskaDul {
+    width: 100%;
+    height: 50%;
+}
+
+.polskaGura {
+    background-color: white;
+}
+
+.polskaDul {
+    background-color: darkred;
+}
